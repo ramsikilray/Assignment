@@ -1,0 +1,18 @@
+#include <iostream>
+#include <queue>  
+using namespace std;
+int main()
+{
+queue<int> queue_sample;
+queue_sample.push(1);
+queue_sample.push(2);
+queue_sample.push(3);
+queue_sample.push(4);
+queue_sample.push(5);
+while (!queue_sample.empty()) {
+cout << ' ' << queue_sample.front();
+queue_sample.pop();
+}
+return 0;
+}
+ 
